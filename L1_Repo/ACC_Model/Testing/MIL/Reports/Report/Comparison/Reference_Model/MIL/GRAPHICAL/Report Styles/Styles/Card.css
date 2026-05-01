@@ -1,0 +1,375 @@
+
+
+/*
+light-Green    #4fe03c
+light-Orange   #e09e3c
+light-Purple   #d03ce0
+light-Red      #e03c3c
+Input-Signals_Rec #ffca18 Orange
+*/
+
+
+
+/* //////////////////////////////////// */
+/* ////////  Dashboard Card  ///////// */
+/* ////////////////////////////////// */
+
+
+
+.SignalsDashboard{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0px 0px;
+    padding: 0px 0px;
+}
+
+.GADashboard {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0px 0px;
+    padding: 0px 0px;
+}
+
+.PassedRectangle{
+    border: 1px solid #28a745;
+    margin: 5px;
+    font-size: 18px;
+    box-sizing: inherit;
+    display: block;
+    line-height: 1.5;
+    width: 45%;
+    border-radius: 10px;
+    padding: 0px 0px;
+	min-height: 80px;
+}
+
+.PassedGARectangle {
+    border: 1px solid #28a745;
+    margin: 5px;
+    font-size: 18px;
+    box-sizing: inherit;
+    display: block;
+    line-height: 1.5;
+    width: 45%;
+    border-radius: 10px;
+    padding: 0px 0px;
+    min-height: 80px;
+}
+
+.GAssessmentRectangle{
+    border: 1px solid #2196f3;
+    margin: 20px;
+    font-size: 18px;
+    box-sizing: inherit;
+    display: block;
+    line-height: 1.5;
+    width: 45%;
+    border-radius: 10px;
+    padding: 0px 0px;
+	min-height: 80px;
+}
+
+.FailedRectangle{
+    border: 1px solid #dc3545;
+    margin: 5px;
+    font-size: 18px;
+    box-sizing: inherit;
+    display: block;
+    line-height: 1.5;
+    width: 45%;
+    border-radius: 10px;
+    padding: 0px 0px;
+	min-height: 80px;
+}
+
+
+
+.FailedGARectangle {
+    border: 1px solid #dc3545;
+    margin: 5px;
+    font-size: 18px;
+    box-sizing: inherit;
+    display: block;
+    line-height: 1.5;
+    width: 45%;
+    border-radius: 10px;
+    padding: 0px 0px;
+    min-height: 80px;
+}
+
+.NotTrigeredGARectangle {
+    border: 1px solid #ffc107;
+    margin: 5px;
+    font-size: 18px;
+    box-sizing: inherit;
+    display: block;
+    line-height: 1.5;
+    width: 45%;
+    border-radius: 10px;
+    padding: 0px 0px;
+    min-height: 80px;
+}
+
+
+
+.InputRectangle{
+    border: 1px solid #ffc107;
+    margin: 5px;
+    font-size: 18px;
+    box-sizing: inherit;
+    display: block;
+    line-height: 1.5;
+    width: 45%;
+    border-radius: 10px;
+    padding: 0px 0px;
+	min-height: 80px;
+}
+
+
+
+.anchorSignal{
+	color: #fff;
+}
+
+.anchorSignal:hover{
+	color: #fff;
+}
+
+.anchorSignal:hover,
+a:focus {
+
+}
+
+
+
+
+.anchorSignal-fail{
+	color: #dc3545;
+	margin-left: 20px;
+}
+
+.anchorSignal-fail:hover{
+	color: #dc3545;
+}
+
+.anchorSignal-fail:hover,
+a:focus {
+
+}
+
+
+.anchorSignal-pass{
+	color: #28a745;
+	margin-left: 20px;
+}
+
+.anchorSignal-pass:hover{
+	color: #28a745;
+}
+
+.anchorSignal-pass:hover,
+a:focus {
+
+}
+
+
+.anchorSignal-input{
+	color: #dea700;
+	margin-left: 20px;
+}
+
+.anchorSignal-input:hover{
+	color: #dea700;
+}
+
+.anchorSignal-input:hover,
+a:focus {
+
+}
+
+
+.anchorSignal-gassess{
+	color: #2196f3;
+	margin-left: 20px;
+}
+
+.anchorSignal-gassess:hover{
+	color: #2196f3;
+}
+
+.anchorSignal-gassess:hover,
+a:focus {
+
+}
+.signalCardHead{
+    padding: 5px 20px;
+    color: aliceblue;
+    border-bottom: 3px solid #fff;
+    border-radius: 5px;
+    margin: 0px 0px;
+	display: flex;
+    justify-content: space-between;
+}
+
+.signalCardHead-fail{
+    background-color: #dc3545;
+}
+
+
+.signalCardHead-pass{
+    background-color: #28a745;
+}
+
+.signalCardHead-input{
+    background-color: #ffc107;
+}
+
+.signalCardHead-gassess{
+    background-color: #2196f3;
+}
+
+.signalCardHead-not_Trigered {
+    background-color: #ffc107;
+}
+
+
+.loadSigData {
+    background: transparent;
+    border: 1px solid white;
+    border-radius: 27px;
+    margin: 10px 0px;
+    padding: 5px 15px;
+}
+
+
+/* ////////////////////////////////// */
+/* ////////  Test Case Card  ///////// */
+/* //////////////////////////////// */
+    
+
+	
+.testCaseTopHeaderPage{
+    padding: .6em 2.6em .6em;
+    font-size: 150%;
+    font-weight: bold;
+    line-height: 1;
+    color: #8a8a8a;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: 50px;
+    margin-left: 1%;
+    margin-right: 1%;
+    background-color: white;
+    border: 1px solid #ddd;
+    width: fit-content;
+    margin: 10px auto;
+}
+
+/* Test Case Info Card */
+.tc-ic {
+    font-size: 150% !important;
+    font-weight: bold;
+    line-height: 1;
+    color: rgb(138, 138, 138);
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    background-color: white !important;
+    width: fit-content;
+    padding: 0.6em 2.6em!important;
+    border-radius: 50px!important;
+    border-width: 1px!important;
+    border-style: solid!important;
+    border-color: rgb(221, 221, 221)!important;
+    border-image: initial!important;
+    margin: 17px auto 10px;
+    outline: none!important;
+	box-shadow: 0 5px 1px 0 rgba(0, 0, 0, 0.2), 0 6px 36px 0 rgba(0, 0, 0, 0.19);
+}
+
+.tc-ic:hover {
+    color: #343a40;
+	text-transform: none !important;
+	box-shadow: 0 5px 1px 0 rgba(0, 0, 0), 0 6px 36px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* ////////////////////////////////// */
+/* ////////  General Card  ///////// */
+/* //////////////////////////////// */
+
+
+
+/* The actual timeline (the vertical ruler) */
+.timeline {
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+
+
+
+
+
+
+/* Place the container to the left */
+.left {
+  left: 0;
+}
+
+/* Place the container to the right */
+.right {
+  left: 50%;
+}
+
+/* Add arrows to the left container (pointing right) */
+.left-Arrow-Red::before {
+  content: " ";
+  height: 0;
+  position: absolute;
+  top: 22px;
+  width: 0;
+  z-index: 1;
+  right: 30px;
+  border: medium solid white;
+  border-width: 10px 0 10px 10px;
+  border-color: transparent transparent transparent #ecc6c6;
+}
+
+/* Add arrows to the right container (pointing left) */
+.right::before {
+  content: " ";
+  height: 0;
+  position: absolute;
+  top: 22px;
+  width: 0;
+  z-index: 1;
+  left: 30px;
+  border: medium solid white;
+  border-width: 10px 10px 10px 0;
+  border-color: transparent white transparent transparent;
+}
+
+/* Fix the circle for containers on the right side */
+.right::after {
+  left: -16px;
+}
+
+/* The actual content */
+.content-red {
+  padding: 20px 30px;
+  background-color: white;
+  position: relative;
+  border-radius: 6px;
+  background-color: #ecc6c6;
+}
+
+
+
+
+
+
+

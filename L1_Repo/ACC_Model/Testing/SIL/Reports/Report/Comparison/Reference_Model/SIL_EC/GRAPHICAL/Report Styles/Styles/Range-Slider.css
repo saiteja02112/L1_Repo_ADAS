@@ -1,0 +1,63 @@
+.rangeslidecontainer {
+  /* width: 100%; */
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.range-slider {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 15px;
+  border-radius: 5px;
+  background: #d3d3d3;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+}
+
+.range-slider:hover {
+  opacity: 1;
+}
+
+.range-slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: #4CAF50;
+  cursor: pointer;
+}
+
+.range-slider::-moz-range-thumb {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: #4CAF50;
+  cursor: pointer;
+}
+
+#signalsSummaryRangeSlider{
+	    /* margin-top: 20px; */
+}
+
+#signalsSummaryRangeSliderValue{
+	padding-left: 20px;
+    line-height: 35px;
+    font-size: 25px;
+    /* margin-top: 10px; */
+    width: 200px;    
+    outline: none;
+    border: none;
+    border: 1px solid #bfbfbf;
+	margin: 0px auto;
+}
+
+#sgSumDispSelectedSgs{
+	padding: 20px;
+	display: flex;
+    flex-direction: column;
+    justify-content: start;
+}

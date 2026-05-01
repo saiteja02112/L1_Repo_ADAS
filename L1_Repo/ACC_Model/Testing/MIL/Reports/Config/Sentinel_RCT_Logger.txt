@@ -1,0 +1,83 @@
+﻿[17-May-2026 18:42:40] Evaluate & Generate MIL report for Testscript: ACC_MIL, Testcase: Button_Status.
+[17-May-2026 18:42:40] Loading the Testcase: Button_Status Output data...
+[17-May-2026 18:42:40] Generating report for Testcase : 1/15, Name : Button_Status, in Testsheet : TestScripts, in Testscript : ACC_MIL.
+[17-May-2026 18:42:40] [Result] Testscript: ACC_MIL Testcase: Button_Status status is PASSED
+__________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+[17-May-2026 18:42:40] Evaluate & Generate MIL report for Testscript: ACC_MIL, Testcase: ACC_Off_to_ACC_Standby.
+[17-May-2026 18:42:40] Loading the Testcase: ACC_Off_to_ACC_Standby Output data...
+[17-May-2026 18:42:40] Generating report for Testcase : 2/15, Name : ACC_Off_to_ACC_Standby, in Testsheet : TestScripts, in Testscript : ACC_MIL.
+[17-May-2026 18:42:40] [Result] Testscript: ACC_MIL Testcase: ACC_Off_to_ACC_Standby status is PASSED
+__________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+[17-May-2026 18:42:40] Evaluate & Generate MIL report for Testscript: ACC_MIL, Testcase: ACC_Off_to_ACC_Standby_2.
+[17-May-2026 18:42:40] Loading the Testcase: ACC_Off_to_ACC_Standby_2 Output data...
+[17-May-2026 18:42:40] Generating report for Testcase : 3/15, Name : ACC_Off_to_ACC_Standby_2, in Testsheet : TestScripts, in Testscript : ACC_MIL.
+[17-May-2026 18:42:40] [Result] Testscript: ACC_MIL Testcase: ACC_Off_to_ACC_Standby_2 status is PASSED
+__________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+[17-May-2026 18:42:40] Evaluate & Generate MIL report for Testscript: ACC_MIL, Testcase: ACC_Standby_to_ACC_Off.
+[17-May-2026 18:42:40] Loading the Testcase: ACC_Standby_to_ACC_Off Output data...
+[17-May-2026 18:42:40] Generating report for Testcase : 4/15, Name : ACC_Standby_to_ACC_Off, in Testsheet : TestScripts, in Testscript : ACC_MIL.
+[17-May-2026 18:42:41] [Result] Testscript: ACC_MIL Testcase: ACC_Standby_to_ACC_Off status is PASSED
+__________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+[17-May-2026 18:42:41] Evaluate & Generate MIL report for Testscript: ACC_MIL, Testcase: ACC_Off_to_ACC_Fault.
+[17-May-2026 18:42:41] Loading the Testcase: ACC_Off_to_ACC_Fault Output data...
+[17-May-2026 18:42:41] Generating report for Testcase : 5/15, Name : ACC_Off_to_ACC_Fault, in Testsheet : TestScripts, in Testscript : ACC_MIL.
+[17-May-2026 18:42:41] [Result] Testscript: ACC_MIL Testcase: ACC_Off_to_ACC_Fault status is PASSED
+__________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+[17-May-2026 18:42:41] Evaluate & Generate MIL report for Testscript: ACC_MIL, Testcase: ACC_Off_to_ACC_Fault_2.
+[17-May-2026 18:42:41] Loading the Testcase: ACC_Off_to_ACC_Fault_2 Output data...
+[17-May-2026 18:42:41] Generating report for Testcase : 6/15, Name : ACC_Off_to_ACC_Fault_2, in Testsheet : TestScripts, in Testscript : ACC_MIL.
+[17-May-2026 18:42:41] [Result] Testscript: ACC_MIL Testcase: ACC_Off_to_ACC_Fault_2 status is PASSED
+__________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+[17-May-2026 18:42:41] Evaluate & Generate MIL report for Testscript: ACC_MIL, Testcase: ACC_Fault_to_ACC_Off.
+[17-May-2026 18:42:41] Loading the Testcase: ACC_Fault_to_ACC_Off Output data...
+[17-May-2026 18:42:41] Generating report for Testcase : 7/15, Name : ACC_Fault_to_ACC_Off, in Testsheet : TestScripts, in Testscript : ACC_MIL.
+[17-May-2026 18:42:41] [Result] Testscript: ACC_MIL Testcase: ACC_Fault_to_ACC_Off status is PASSED
+__________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+[17-May-2026 18:42:41] Evaluate & Generate MIL report for Testscript: ACC_MIL, Testcase: ACC_Standby_to_Active.
+[17-May-2026 18:42:41] Loading the Testcase: ACC_Standby_to_Active Output data...
+[17-May-2026 18:42:41] Generating report for Testcase : 8/15, Name : ACC_Standby_to_Active, in Testsheet : TestScripts, in Testscript : ACC_MIL.
+[17-May-2026 18:42:41] [Result] Testscript: ACC_MIL Testcase: ACC_Standby_to_Active status is FAILED
+__________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+[17-May-2026 18:42:41] Evaluate & Generate MIL report for Testscript: ACC_MIL, Testcase: ACC_Standby_to_Active_2.
+[17-May-2026 18:42:41] Loading the Testcase: ACC_Standby_to_Active_2 Output data...
+[17-May-2026 18:42:42] Generating report for Testcase : 9/15, Name : ACC_Standby_to_Active_2, in Testsheet : TestScripts, in Testscript : ACC_MIL.
+[17-May-2026 18:42:42] [Result] Testscript: ACC_MIL Testcase: ACC_Standby_to_Active_2 status is PASSED
+__________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+[17-May-2026 18:42:42] Evaluate & Generate MIL report for Testscript: ACC_MIL, Testcase: ACC_Standby_to_Active_3.
+[17-May-2026 18:42:42] Loading the Testcase: ACC_Standby_to_Active_3 Output data...
+[17-May-2026 18:42:42] Generating report for Testcase : 10/15, Name : ACC_Standby_to_Active_3, in Testsheet : TestScripts, in Testscript : ACC_MIL.
+[17-May-2026 18:42:42] [Result] Testscript: ACC_MIL Testcase: ACC_Standby_to_Active_3 status is FAILED
+__________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+[17-May-2026 18:42:42] Evaluate & Generate MIL report for Testscript: ACC_MIL, Testcase: ACC_Standby_to_ACC_Active_Follow.
+[17-May-2026 18:42:42] Loading the Testcase: ACC_Standby_to_ACC_Active_Follow Output data...
+[17-May-2026 18:42:42] Generating report for Testcase : 11/15, Name : ACC_Standby_to_ACC_Active_Follow, in Testsheet : TestScripts, in Testscript : ACC_MIL.
+[17-May-2026 18:42:42] [Result] Testscript: ACC_MIL Testcase: ACC_Standby_to_ACC_Active_Follow status is FAILED
+__________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+[17-May-2026 18:42:42] Evaluate & Generate MIL report for Testscript: ACC_MIL, Testcase: ACC_Standby_to_ACC_Active_Follow_2.
+[17-May-2026 18:42:42] Loading the Testcase: ACC_Standby_to_ACC_Active_Follow_2 Output data...
+[17-May-2026 18:42:42] Generating report for Testcase : 12/15, Name : ACC_Standby_to_ACC_Active_Follow_2, in Testsheet : TestScripts, in Testscript : ACC_MIL.
+[17-May-2026 18:42:42] [Result] Testscript: ACC_MIL Testcase: ACC_Standby_to_ACC_Active_Follow_2 status is FAILED
+__________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+[17-May-2026 18:42:42] Evaluate & Generate MIL report for Testscript: ACC_MIL, Testcase: ACC_Standby_to_ACC_Active_Follow_3.
+[17-May-2026 18:42:42] Loading the Testcase: ACC_Standby_to_ACC_Active_Follow_3 Output data...
+[17-May-2026 18:42:42] Generating report for Testcase : 13/15, Name : ACC_Standby_to_ACC_Active_Follow_3, in Testsheet : TestScripts, in Testscript : ACC_MIL.
+[17-May-2026 18:42:43] [Result] Testscript: ACC_MIL Testcase: ACC_Standby_to_ACC_Active_Follow_3 status is PASSED
+__________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+[17-May-2026 18:42:43] Evaluate & Generate MIL report for Testscript: ACC_MIL, Testcase: ACC_Standby_to_ACC_Fault.
+[17-May-2026 18:42:43] Loading the Testcase: ACC_Standby_to_ACC_Fault Output data...
+[17-May-2026 18:42:43] Generating report for Testcase : 14/15, Name : ACC_Standby_to_ACC_Fault, in Testsheet : TestScripts, in Testscript : ACC_MIL.
+[17-May-2026 18:42:43] [Result] Testscript: ACC_MIL Testcase: ACC_Standby_to_ACC_Fault status is PASSED
+__________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+[17-May-2026 18:42:43] Evaluate & Generate MIL report for Testscript: ACC_MIL, Testcase: ACC_Standby_to_ACC_Fault_2.
+[17-May-2026 18:42:43] Loading the Testcase: ACC_Standby_to_ACC_Fault_2 Output data...
+[17-May-2026 18:42:43] Generating report for Testcase : 15/15, Name : ACC_Standby_to_ACC_Fault_2, in Testsheet : TestScripts, in Testscript : ACC_MIL.
+[17-May-2026 18:42:43] [Result] Testscript: ACC_MIL Testcase: ACC_Standby_to_ACC_Fault_2 status is PASSED
+__________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+[17-May-2026 18:42:43] Generating Analysis(Testcase Based) report.
+[17-May-2026 18:42:43] Saving Analysis(Testcase Based) report at: C:\Users\spadhi\Documents\Sai_Personal_Projects\L1_Repo\ACC_Model\Testing\MIL\Reports\Report\Comparison\Reference_Model\MIL\GRAPHICAL\Report Styles\Pages\Traceability.html
+[17-May-2026 18:42:43] Generating Analysis(Requirements Based) report.
+[17-May-2026 18:42:43] Saving Analysis(Requirements Based) report at: C:\Users\spadhi\Documents\Sai_Personal_Projects\L1_Repo\ACC_Model\Testing\MIL\Reports\Report\Comparison\Reference_Model\MIL\GRAPHICAL\Report Styles\Pages\TraceabilityCovReq.html
+[17-May-2026 18:42:43] Generating Analysis(Signal Summary) report.
+[17-May-2026 18:42:43] Saving Analysis(Testcase Based) report at: C:\Users\spadhi\Documents\Sai_Personal_Projects\L1_Repo\ACC_Model\Testing\MIL\Reports\Report\Comparison\Reference_Model\MIL\GRAPHICAL\Report Styles\Pages\SignalsSummary.html
+[17-May-2026 18:42:43] Generating Report Info report.
+[17-May-2026 18:42:43] Saving Analysis(Testcase Based) report at: C:\Users\spadhi\Documents\Sai_Personal_Projects\L1_Repo\ACC_Model\Testing\MIL\Reports\Report\Comparison\Reference_Model\MIL\GRAPHICAL\Report Styles\Pages\About_This_Report.html
