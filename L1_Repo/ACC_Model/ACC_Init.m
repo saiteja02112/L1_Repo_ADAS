@@ -9,4 +9,5 @@ delete('*.mexw64');
 delete('*.slxc');
 close all;
 addpath(genpath(pwd));
+load('./Config.mat')
 open_system("./Model/ACC.slx");
