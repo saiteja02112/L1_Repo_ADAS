@@ -1,0 +1,238 @@
+<!DOC TYPE HTML>
+                     <html>
+                        <head>	
+		                    <title> ACC_StopHold_to_ACC_Active_Follow_&_Viceversa </title><meta charset='utf-8'>
+                            <meta name='viewport' content='width=device-width, initial-scale=1'>'         
+              <script src='../Report Styles/Scripts/jquery.min.js'></script>
+              <script src='../Report Styles/Scripts/bootstrap.min.js'></script>
+              <script src='../Report Styles/Scripts/lz-string.js'></script>
+              <script src='../Report Styles/Scripts/JustificationData.js'></script> 
+              <script src='../Report Styles/Scripts/ReqJustification.js'></script> 
+              <script src='../Report Styles/Scripts/CompactedGeneratedTXTFile.min.js'></script>
+              <script src='../Report Styles/Scripts/GlobalAssessments.js'></script>
+              <script src='../Report Styles/Scripts/RCT_Script.min.js'></script>   
+              
+              <script> var x = Array(12).fill().map(function(v, i) { return i * 0.02; }); </script>
+              <link href='../Report Styles/Styles/font-awesome.min.css' rel='stylesheet'/>
+              <link href='../Report Styles/Styles/Footer.css' rel='stylesheet' />
+              <link rel='stylesheet' href='../Report Styles/Styles/bootstrap.min.css'>
+              <link rel='stylesheet' href='../Report Styles/Styles/NavbarCustomeLight.css'>
+              <link rel='stylesheet' href='../Report Styles/Styles/Tab.css'>
+              <link rel='stylesheet' href='../Report Styles/Styles/Range-Slider.css'>
+              <link rel='stylesheet' href='../Report Styles/Styles/Card.css'> 
+              <link rel='stylesheet' href='../Report Styles/Styles/Testscript.css'>
+              <link rel='stylesheet' href='../Report Styles/Styles/Signal.css'>
+              <link rel='stylesheet' href='../Report Styles/Styles/radio-buttons.css'>
+              <link rel='stylesheet' href='../Report Styles/Styles/General_CSS.css'>
+              <link rel='stylesheet' href='../Report Styles/Styles/AboutUs.css'> 
+              <link rel='stylesheet' href='../Report Styles/Styles/traceability.css'>              
+              <link rel='stylesheet' href='../Report Styles/Styles/BackToTop.css'>
+              </head><body>
+            <nav class='navbar navbar-expand-lg fixed-top navbar-light'>
+              <div class='container-fluid'>
+                <div class='navbar-header'>
+                  <button type='button' class='navbar-toggle' data-toggle='collapse' data-target='#myNavbar'>
+                    <i class='fa fa-bars' style='font-size: 250%;'></i>
+                  </button>
+                  <a class='navbar-brand WOWFontStyle' href='../Comparison Report.html' target='_blank'>Sentinel Report</a>
+                </div>
+                <div class='collapse navbar-collapse' id='myNavbar'>
+                  <ul class='nav navbar-nav'>
+                    <li class='nav-item'>
+                        <a class='nav-link' href='../Comparison Report.html' target='_blank'><i class='fa fa-home'></i> Home</a>
+                    </li>
+
+                    <li class='nav-item'>
+                        <a class='nav-link' href='../Report Styles/Pages/About_This_Report.html' target='_blank'><i class='fa fa-info-circle'></i> Report Info</a>
+                    </li><li class='dropdown'>
+                        <a class='dropdown-toggle nav-link' data-toggle='dropdown' href='#'><i class='fa fa-industry'></i> Analysis
+                        <span class='caret'></span></a>
+                        <ul class='dropdown-menu'>
+                            <li class='nav-item'>
+                                <a class='dd-nav-link' href='../Report Styles/Pages/Traceability.html' target='_blank'> Test Case Based</a>
+                            </li>
+                            <li class='nav-item'>
+                                <a class='dd-nav-link' href='../Report Styles/Pages/TraceabilityCovReq.html' target='_blank'> Requirement Based</a>
+                            </li> 
+                             <li class='nav-item'>
+                                        <a class='dd-nav-link' href='../Report Styles/Pages/SignalsSummary.html' target='_blank'> Signal Based</a>
+                             </li>
+                        </ul>
+                    </li> 
+                    <li class='nav-item'>
+                        <a class='nav-link' href='../../..\..\..\Coverage\Reference_Model\MIL\ACC_CoverageResults.html' target='_blank'><i class='fa fa-external-link'></i> Coverage</a>
+                    </li>  
+
+                  
+                </ul>
+                </div>
+            </div>
+            </nav> <p class='testCaseTopHeaderPage sticky'> Test Case Name: ACC_StopHold_to_ACC_Active_Follow_&_Viceversa</p><input  type = 'hidden' value = 'TestScripts'>
+            <div class='radiobutns-wrapper'>
+										
+				<div data-toggle='tooltip' data-placement='bottom' title='Click to show all the output signals (passed & failed)'>
+				<label id='radio_output' class='radio radio-output'>Output Signals
+				  <input id='radio_output_id' onclick='ShowOutputSignals(); coloringRadioButns("radio_output" , "#75aaff");' type='radio' name='is_company'>
+				  <span class='checkround'></span>
+				</label>
+				</div>				
+				<div data-toggle='tooltip' data-placement='bottom' title='Click to show all the passed signals'>
+				<label id='radio_passed' class='radio radio-passed' >Passed Output Signals
+				  <input id='radio_passed_id' onclick='ShowPassedSignals(); coloringRadioButns("radio_passed" , "#4fe03c");' type='radio' name='is_company'>
+				  <span class='checkround'></span>
+				</label>
+				</div>					
+				<div data-toggle='tooltip' data-placement='bottom' title='Click to show all the failed signals'>
+				<label id='radio_failed' class='radio radio-failed' style='color:#ff8b8b'>Failed Output Signals
+				  <input id='radio_failed_id' onclick='ShowFailedSignals(); coloringRadioButns("radio_failed" , "#ff8b8b");' type='radio' checked='checked' name='is_company'>
+				  <span  class='checkround'></span>
+				</label>
+				</div>						
+			</div>
+            
+             <div class='row SignalsDashboard OutputDashboard'>
+                <div class='PassedRectangle col-md-5' style='display: none;'>
+                    <div class='signalCardHead signalCardHead-pass'>
+                        <h2>Passed Signals: 1 / 1</h2>
+                        <button id='lasP' class='tc-ic' style='margin: 10px 0px; font-size: initial !important;'>Load All Signals Data</button>                    
+                    </div>
+                    <p> <button class=' PLoadbtn btn btn-success btn-xs Tab0ACCState'  onclick='loadJSFile("Tab0ACCState", "ACC_StopHold_to_ACC_Active_Follow_&_Viceversa/ACC_State")' style=' margin-left:10px;' tip='Load Graph Data'><i class='fa fa-refresh '></i> Load Graph</button>
+                           <a class='anchorSignal-pass' href="#Tab0">ACC_State</a>
+                         </p>
+                </div>
+    
+                <div class='FailedRectangle col-md-5'>
+                    <div class='signalCardHead signalCardHead-fail'>
+                        <h2>Failed Signals: 0 / 1</h2>
+                        <button id='lasF' class='tc-ic' style='margin: 10px 0px; font-size: initial !important;'>Load All Signals Data</button>                    
+                    </div>
+                    
+                </div>
+            </div>
+
+        
+                <div class='tc-i SignalsSummary'>
+				        <button class='tc-ic' data-toggle='collapse' data-target='#tci' style='aria-expanded=true;'> Test Case Info</button>
+				        <div id='tci' class='collapse in' style='display:flex; justify-content: space-around;' aria-expanded='true' class='statusSignalContent signalTabContent'>	
+					        <div class='statusCard col-sm-3'>
+						        <p class='statusCardHeader statusCardHeader-Green'>General</p>
+                                <p> Test Case Name: <b>ACC_StopHold_to_ACC_Active_Follow_&_Viceversa</b> </p>
+                                <p> Test Author: <b>Switch_Off</b> </p>
+                                <p> Test Version: <b>Ign_Off</b> </p>
+                                <p> Requirement Documents: <b>Sai</b> </p>
+					        </div>
+                            
+                            <div class='statusCard col-sm-3'>
+						        <p class='statusCardHeader statusCardHeader-Purple'>Results</p>
+                                
+                                 <div style = 'font-weight:bold'> Comparison Status: <i class='fa fa-check' style='font-size:100%; margin:0px 10px; color:#0f0;'>Passed</i>
+                                 </div>
+                            </div>
+
+                            <div class='statusCard col-sm-3'>
+                                <p class='statusCardHeader statusCardHeader-Grey'>Description</p>
+                                <b>Test_ACC_StopHold_to_ACC_Active_Follow</b>
+                            </div><div class='statusCard col-sm-3'>
+                                <p class='statusCardHeader statusCardHeader-Orange'>Requirements</p>
+                                <p> <a class='trac-anchor' href='C:\Users\spadhi\Documents\Sai_Personal_Projects\L1_Repo\ACC_Model\Testing\MIL\Reports/Report Styles/Pages/TraceabilityCovReq.html' target='_blank'> SYS_Req_ACC_23<br>SYS_Req_ACC_15</a> </td>
+                            </div>
+				        </div>
+			        </div>
+                    
+            <span id='ACC_StateSigSummary'></span>
+            <div id='Tab0'  class='TabContainer Signal Output Pass' style='display: none;'>
+                    <div class='tab'>
+                        <div class='tab'>
+                          <button  class='tls0 active' onmouseover="ntst2(event, 'SignalDiv0', 'SignalDiv1','tls0')">Output</button>
+
+                          <button  class='tls0' onmouseover="ntst2(event, 'SignalDiv1', 'SignalDiv0', 'tls0')">Difference</button>                        
+                        </div>
+
+                        <label id='ipACC_State' class='switch tcs' style='margin: auto; display: none;'>
+                        
+                        
+                        <input type='checkbox' onclick="tip_cnap('SignalDiv0', 'ACC_State', actvarSignalDiv0, expvarSignalDiv0, 0,assessvarSignalDiv0,assessannotvarSignalDiv0); 
+                                                    tip_cndp('SignalDiv1', 'ACC_State', diffvarSignalDiv1, [0,0,0.22,0.22,0],[-0,0,0,-0,-0],0,0);">
+
+                          <span class='slider round'></span>
+                        </label>
+
+                        <div  style='margin: auto;' class="Tab0ACCState">
+                            <button class='tc-ic' onclick='loadJSFile("Tab0ACCState" , "ACC_StopHold_to_ACC_Active_Follow_&_Viceversa/ACC_State")'>Load [ <span style='color: #4fe03c;'>ACC_State</span> ] Graph Data</button>
+                        </div>
+
+                        <div style='margin-left: auto;'>
+                            <i class='fa fa-check' style='font-size:200%; margin:25px 15px; color:#0f0;'>Passed</i>
+                        </div>
+                    </div>
+
+                    <div class='container body-content signalTabContent signalTabDefault' id='SignalDiv0' ></div><div class='container body-content signalTabContent' id='SignalDiv1' style='display: none;'> </div>
+                <div class='container body-content SignalJustification' id='ACCACMILACCACStopHoldACtoACACCACActiveACFollowACViceversaACCACState'><span  class='justifTxt'> Justification <span></div>
+            </div>
+            <button onclick='topFunction()' id='myBtn' title='Back To Dashboard'><i class='fa fa-angle-double-up'  style='font-size: 40px'></i></button>
+            <!--<br><br><br>-->
+            <footer class='Footer'>
+                    <!-- Footer -->
+                    <section id='footer'>
+                        <div class='container'>
+                            <div class='row footer-links'>
+                                <div style='width: 25%;'>
+                                  <textarea id='copied-textarea' style='display='none'></textarea>
+                                    <h3>Managers</h3>
+                                    <ul class='list-unstyled quick-links'>
+                                    <li><a id='mohammed_diab_valeo_com' href='javascript:void()' class='copy-select' data-toggle='tooltip' title='Copy' onclick='copyMail(copyMail("#mohammed_diab_valeo_com", "mohammed.diab@valeo.com"))'><i class='fa fa-user-plus'></i>mohammed.diab@valeo.com</a></li><li><a id='mohamed_yousef_valeo_com' href='javascript:void()' class='copy-select' data-toggle='tooltip' title='Copy' onclick='copyMail(copyMail("#mohamed_yousef_valeo_com", "mohamed.yousef@valeo.com"))'><i class='fa fa-user-plus'></i>mohamed.yousef@valeo.com</a></li><li><a id='mostafa_koratum_valeo_com' href='javascript:void()' class='copy-select' data-toggle='tooltip' title='Copy' onclick='copyMail(copyMail("#mostafa_koratum_valeo_com", "mostafa.koratum@valeo.com"))'><i class='fa fa-user-plus'></i>mostafa.koratum@valeo.com</a></li>
+                                    </ul>
+                                </div>
+                                <div style='width: 25%;'>
+                                    <h3>Sentinel Trainer "MS102"</h3>
+                                    <ul class='list-unstyled quick-links'>
+                                    <li><a id='abdallah_abouelezz_valeo_com' href='javascript:void()' class='copy-select' data-toggle='tooltip' title='Copy' onclick='copyMail(copyMail("#abdallah_abouelezz_valeo_com", "abdallah.abouelezz@valeo.com"))'><i class='fa fa-user-o'></i>abdallah.abouelezz@valeo.com</a></li>
+                                    </ul>
+                                </div>
+                                <div style='width: 25%;'>
+                                    <h3>Level One Support</h3>
+                                    <ul class='list-unstyled quick-links'>
+                                    <li><a id='hossam_elbaz_valeo_com (THS)' href='javascript:void()' class='copy-select' data-toggle='tooltip' title='Copy' onclick='copyMail(copyMail("#hossam_elbaz_valeo_com (THS)", "hossam.elbaz@valeo.com (THS)"))'><i class='fa fa-user-o'></i>hossam.elbaz@valeo.com (THS)</a></li><li><a id='mohamed_Elamir_valeo_com (PTS)' href='javascript:void()' class='copy-select' data-toggle='tooltip' title='Copy' onclick='copyMail(copyMail("#mohamed_Elamir_valeo_com (PTS)", "mohamed.Elamir@valeo.com (PTS)"))'><i class='fa fa-user-o'></i>mohamed.Elamir@valeo.com (PTS)</a></li><li><a id='sarah_ahmed_valeo_com (PTS)' href='javascript:void()' class='copy-select' data-toggle='tooltip' title='Copy' onclick='copyMail(copyMail("#sarah_ahmed_valeo_com (PTS)", "sarah.ahmed@valeo.com (PTS)"))'><i class='fa fa-user-o'></i>sarah.ahmed@valeo.com (PTS)</a></li><li><a id='abdallah_abouelezz_valeo_com (CDA)' href='javascript:void()' class='copy-select' data-toggle='tooltip' title='Copy' onclick='copyMail(copyMail("#abdallah_abouelezz_valeo_com (CDA)", "abdallah.abouelezz@valeo.com (CDA)"))'><i class='fa fa-user-o'></i>abdallah.abouelezz@valeo.com (CDA)</a></li><li><a id='mahmoud_yahia_valeo_com (CDA)' href='javascript:void()' class='copy-select' data-toggle='tooltip' title='Copy' onclick='copyMail(copyMail("#mahmoud_yahia_valeo_com (CDA)", "mahmoud.yahia@valeo.com (CDA)"))'><i class='fa fa-user-o'></i>mahmoud.yahia@valeo.com (CDA)</a></li>
+                                    </ul>
+                                </div>
+                                <div style='width: 20%;'>
+                                    <h3>Useful Links</h3>
+                                    <ul class='list-unstyled quick-links'>
+                                        <li><a href='https://smartworkplace.apps.valeo.com/model-based-development/' target='_blank'><i class='fa fa-university'></i>MBD Portal</a></li>
+                                        <li><a href='https://docs.google.com/forms/d/1OnBvp2j7y1Fy73jvHd6zPiTMOqLB7ZCPO0qqZSRqNRA/edit?ts=6458f84e' target='_blank'><i class='fa fa-book'></i>Support</a></li>                                                                  
+                                    </ul>
+                                </div>
+                                <div style='width: 25%;'>
+                                    <h3>Get Started</h3>
+                                    <ul class='list-unstyled quick-links'>
+                                        <li><a href='../Report Styles/Pages/CompatibilityMatrix.html' target='_blank'><i class='fa fa-th'></i>Compatibility Matrix</a></li>
+                                        <li><a href='https://smartworkplace.apps.valeo.com/model-based-development/validation-environment' target='_blank'><i class='fa fa-download'></i>Download</a></li>
+                                        <li><a href='C:\Users\spadhi\Documents\eMBD_Tools\Sentinel\Application_Files\G-Documentation/Sentinel-UserGuide.pdf' target='_blank'><i class='fa fa-address-book'></i>User Guide</a></li>
+                                        <li><a href='https://smartworkplace.apps.valeo.com/model-based-development/ls/community/posts/post/6231740022784000' target='_blank'><i class='fa fa-play-circle'></i>Get Started</a></li>
+                                    </ul>
+                                </div>
+                            </div><div class='row'>
+                                <div class='col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-2 text-center text-white'>
+                                    <p class='h6'>© 2026 Copyright: <a id='valeoWebsite' class='ml-2' href='https://www.valeo.com/en/' target='_blank'>Valeo</a></p>
+                                </div>
+                                </hr>
+                            </div>
+                        </div>
+                    </section>
+                    <!-- ./Footer -->
+                </footer>	
+				
+			
+				<script>
+						$("#radio_passed_id"). prop("checked", true);	
+						coloringRadioButns("radio_passed" , "#4fe03c");						
+						ShowPassedSignals()
+					</script>
+			
+				<script>
+						decompressAllTheLoadingSignalGraphsData();
+				</script>
+			
+                    </body>
+                    </html>
+                    

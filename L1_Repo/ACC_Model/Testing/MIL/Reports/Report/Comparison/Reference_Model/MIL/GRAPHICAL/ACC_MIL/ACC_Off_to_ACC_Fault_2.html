@@ -12,7 +12,7 @@
               <script src='../Report Styles/Scripts/GlobalAssessments.js'></script>
               <script src='../Report Styles/Scripts/RCT_Script.min.js'></script>   
               
-              <script> var x = Array(8).fill().map(function(v, i) { return i * 0.01; }); </script>
+              <script> var x = Array(4).fill().map(function(v, i) { return i * 0.02; }); </script>
               <link href='../Report Styles/Styles/font-awesome.min.css' rel='stylesheet'/>
               <link href='../Report Styles/Styles/Footer.css' rel='stylesheet' />
               <link rel='stylesheet' href='../Report Styles/Styles/bootstrap.min.css'>
@@ -93,27 +93,25 @@
              <div class='row SignalsDashboard OutputDashboard'>
                 <div class='PassedRectangle col-md-5' style='display: none;'>
                     <div class='signalCardHead signalCardHead-pass'>
-                        <h2>Passed Signals: 6 / 6</h2>
+                        <h2>Passed Signals: 5 / 5</h2>
                         <button id='lasP' class='tc-ic' style='margin: 10px 0px; font-size: initial !important;'>Load All Signals Data</button>                    
                     </div>
-                    <p> <button class=' PLoadbtn btn btn-success btn-xs Tab0AccelerationRequest'  onclick='loadJSFile("Tab0AccelerationRequest", "ACC_Off_to_ACC_Fault_2/Acceleration_Request")' style=' margin-left:10px;' tip='Load Graph Data'><i class='fa fa-refresh '></i> Load Graph</button>
-                           <a class='anchorSignal-pass' href="#Tab0">Acceleration_Request</a>
+                    <p> <button class=' PLoadbtn btn btn-success btn-xs Tab0ACCState'  onclick='loadJSFile("Tab0ACCState", "ACC_Off_to_ACC_Fault_2/ACC_State")' style=' margin-left:10px;' tip='Load Graph Data'><i class='fa fa-refresh '></i> Load Graph</button>
+                           <a class='anchorSignal-pass' href="#Tab0">ACC_State</a>
                          </p><p> <button class=' PLoadbtn btn btn-success btn-xs Tab1TorqueRequestStatus'  onclick='loadJSFile("Tab1TorqueRequestStatus", "ACC_Off_to_ACC_Fault_2/Torque_Request_Status")' style=' margin-left:10px;' tip='Load Graph Data'><i class='fa fa-refresh '></i> Load Graph</button>
                            <a class='anchorSignal-pass' href="#Tab1">Torque_Request_Status</a>
                          </p><p> <button class=' PLoadbtn btn btn-success btn-xs Tab2HMIACCICON'  onclick='loadJSFile("Tab2HMIACCICON", "ACC_Off_to_ACC_Fault_2/HMI_ACC_ICON")' style=' margin-left:10px;' tip='Load Graph Data'><i class='fa fa-refresh '></i> Load Graph</button>
                            <a class='anchorSignal-pass' href="#Tab2">HMI_ACC_ICON</a>
-                         </p><p> <button class=' PLoadbtn btn btn-success btn-xs Tab3HMISetSpeed'  onclick='loadJSFile("Tab3HMISetSpeed", "ACC_Off_to_ACC_Fault_2/HMI_SetSpeed")' style=' margin-left:10px;' tip='Load Graph Data'><i class='fa fa-refresh '></i> Load Graph</button>
-                           <a class='anchorSignal-pass' href="#Tab3">HMI_SetSpeed</a>
-                         </p><p> <button class=' PLoadbtn btn btn-success btn-xs Tab4AudibleWarning'  onclick='loadJSFile("Tab4AudibleWarning", "ACC_Off_to_ACC_Fault_2/Audible_Warning")' style=' margin-left:10px;' tip='Load Graph Data'><i class='fa fa-refresh '></i> Load Graph</button>
-                           <a class='anchorSignal-pass' href="#Tab4">Audible_Warning</a>
-                         </p><p> <button class=' PLoadbtn btn btn-success btn-xs Tab5InternalControlMode'  onclick='loadJSFile("Tab5InternalControlMode", "ACC_Off_to_ACC_Fault_2/Internal_Control_Mode")' style=' margin-left:10px;' tip='Load Graph Data'><i class='fa fa-refresh '></i> Load Graph</button>
-                           <a class='anchorSignal-pass' href="#Tab5">Internal_Control_Mode</a>
+                         </p><p> <button class=' PLoadbtn btn btn-success btn-xs Tab3AudibleWarning'  onclick='loadJSFile("Tab3AudibleWarning", "ACC_Off_to_ACC_Fault_2/Audible_Warning")' style=' margin-left:10px;' tip='Load Graph Data'><i class='fa fa-refresh '></i> Load Graph</button>
+                           <a class='anchorSignal-pass' href="#Tab3">Audible_Warning</a>
+                         </p><p> <button class=' PLoadbtn btn btn-success btn-xs Tab4InternalControlMode'  onclick='loadJSFile("Tab4InternalControlMode", "ACC_Off_to_ACC_Fault_2/Internal_Control_Mode")' style=' margin-left:10px;' tip='Load Graph Data'><i class='fa fa-refresh '></i> Load Graph</button>
+                           <a class='anchorSignal-pass' href="#Tab4">Internal_Control_Mode</a>
                          </p>
                 </div>
     
                 <div class='FailedRectangle col-md-5'>
                     <div class='signalCardHead signalCardHead-fail'>
-                        <h2>Failed Signals: 0 / 6</h2>
+                        <h2>Failed Signals: 0 / 5</h2>
                         <button id='lasF' class='tc-ic' style='margin: 10px 0px; font-size: initial !important;'>Load All Signals Data</button>                    
                     </div>
                     
@@ -127,8 +125,8 @@
 					        <div class='statusCard col-sm-3'>
 						        <p class='statusCardHeader statusCardHeader-Green'>General</p>
                                 <p> Test Case Name: <b>ACC_Off_to_ACC_Fault_2</b> </p>
-                                <p> Test Author: <b>0</b> </p>
-                                <p> Test Version: <b>0</b> </p>
+                                <p> Test Author: <b>Switch_Off</b> </p>
+                                <p> Test Version: <b>Ign_Off</b> </p>
                                 <p> Requirement Documents: <b>Sai</b> </p>
 					        </div>
                             
@@ -141,7 +139,7 @@
 
                             <div class='statusCard col-sm-3'>
                                 <p class='statusCardHeader statusCardHeader-Grey'>Description</p>
-                                <b>Test_ACC_Off_to_Fault_Transition</b>
+                                <b>All fail cases</b>
                             </div><div class='statusCard col-sm-3'>
                                 <p class='statusCardHeader statusCardHeader-Orange'>Requirements</p>
                                 <p> <a class='trac-anchor' href='C:\Users\spadhi\Documents\Sai_Personal_Projects\L1_Repo\ACC_Model\Testing\MIL\Reports/Report Styles/Pages/TraceabilityCovReq.html' target='_blank'> SYS_Req_ACC_01<br>SYS_Req_ACC_02<br>SYS_Req_ACC_09</a> </td>
@@ -149,7 +147,7 @@
 				        </div>
 			        </div>
                     
-            <span id='Acceleration_RequestSigSummary'></span>
+            <span id='ACC_StateSigSummary'></span>
             <div id='Tab0'  class='TabContainer Signal Output Pass' style='display: none;'>
                     <div class='tab'>
                         <div class='tab'>
@@ -158,17 +156,17 @@
                           <button  class='tls0' onmouseover="ntst2(event, 'SignalDiv1', 'SignalDiv0', 'tls0')">Difference</button>                        
                         </div>
 
-                        <label id='ipAcceleration_Request' class='switch tcs' style='margin: auto; display: none;'>
+                        <label id='ipACC_State' class='switch tcs' style='margin: auto; display: none;'>
                         
                         
-                        <input type='checkbox' onclick="tip_cnap('SignalDiv0', 'Acceleration_Request', actvarSignalDiv0, expvarSignalDiv0, 0,assessvarSignalDiv0,assessannotvarSignalDiv0); 
-                                                    tip_cndp('SignalDiv1', 'Acceleration_Request', diffvarSignalDiv1, [0,0,0.07,0.07,0],[-0,0,0,-0,-0],0,0);">
+                        <input type='checkbox' onclick="tip_cnap('SignalDiv0', 'ACC_State', actvarSignalDiv0, expvarSignalDiv0, 0,assessvarSignalDiv0,assessannotvarSignalDiv0); 
+                                                    tip_cndp('SignalDiv1', 'ACC_State', diffvarSignalDiv1, [0,0,0.06,0.06,0],[-0,0,0,-0,-0],0,0);">
 
                           <span class='slider round'></span>
                         </label>
 
-                        <div  style='margin: auto;' class="Tab0AccelerationRequest">
-                            <button class='tc-ic' onclick='loadJSFile("Tab0AccelerationRequest" , "ACC_Off_to_ACC_Fault_2/Acceleration_Request")'>Load [ <span style='color: #4fe03c;'>Acceleration_Request</span> ] Graph Data</button>
+                        <div  style='margin: auto;' class="Tab0ACCState">
+                            <button class='tc-ic' onclick='loadJSFile("Tab0ACCState" , "ACC_Off_to_ACC_Fault_2/ACC_State")'>Load [ <span style='color: #4fe03c;'>ACC_State</span> ] Graph Data</button>
                         </div>
 
                         <div style='margin-left: auto;'>
@@ -177,7 +175,7 @@
                     </div>
 
                     <div class='container body-content signalTabContent signalTabDefault' id='SignalDiv0' ></div><div class='container body-content signalTabContent' id='SignalDiv1' style='display: none;'> </div>
-                <div class='container body-content SignalJustification' id='ACCAcMILACCAcOffActoAcACCAcFaultAc2AccelerationAcRequest'><span  class='justifTxt'> Justification <span></div>
+                <div class='container body-content SignalJustification' id='ACCACMILACCACOffACtoACACCACFaultAC2ACCACState'><span  class='justifTxt'> Justification <span></div>
             </div>
             
             <span id='Torque_Request_StatusSigSummary'></span>
@@ -193,7 +191,7 @@
                         
                         
                         <input type='checkbox' onclick="tip_cnap('SignalDiv3', 'Torque_Request_Status', actvarSignalDiv3, expvarSignalDiv3, 0,assessvarSignalDiv3,assessannotvarSignalDiv3); 
-                                                    tip_cndp('SignalDiv4', 'Torque_Request_Status', diffvarSignalDiv4, [0,0,0.07,0.07,0],[-0,0,0,-0,-0],0,0);">
+                                                    tip_cndp('SignalDiv4', 'Torque_Request_Status', diffvarSignalDiv4, [0,0,0.06,0.06,0],[-0,0,0,-0,-0],0,0);">
 
                           <span class='slider round'></span>
                         </label>
@@ -224,7 +222,7 @@
                         
                         
                         <input type='checkbox' onclick="tip_cnap('SignalDiv6', 'HMI_ACC_ICON', actvarSignalDiv6, expvarSignalDiv6, 0,assessvarSignalDiv6,assessannotvarSignalDiv6); 
-                                                    tip_cndp('SignalDiv7', 'HMI_ACC_ICON', diffvarSignalDiv7, [0,0,0.07,0.07,0],[-0,0,0,-0,-0],0,0);">
+                                                    tip_cndp('SignalDiv7', 'HMI_ACC_ICON', diffvarSignalDiv7, [0,0,0.06,0.06,0],[-0,0,0,-0,-0],0,0);">
 
                           <span class='slider round'></span>
                         </label>
@@ -242,7 +240,7 @@
                 <div class='container body-content SignalJustification' id='ACCHMMILACCHMOffHMtoHMACCHMFaultHM2HMIHMACCHMICON'><span  class='justifTxt'> Justification <span></div>
             </div>
             
-            <span id='HMI_SetSpeedSigSummary'></span>
+            <span id='Audible_WarningSigSummary'></span>
             <div id='Tab3'  class='TabContainer Signal Output Pass' style='display: none;'>
                     <div class='tab'>
                         <div class='tab'>
@@ -251,17 +249,17 @@
                           <button  class='tls9' onmouseover="ntst2(event, 'SignalDiv10', 'SignalDiv9', 'tls9')">Difference</button>                        
                         </div>
 
-                        <label id='ipHMI_SetSpeed' class='switch tcs' style='margin: auto; display: none;'>
+                        <label id='ipAudible_Warning' class='switch tcs' style='margin: auto; display: none;'>
                         
                         
-                        <input type='checkbox' onclick="tip_cnap('SignalDiv9', 'HMI_SetSpeed', actvarSignalDiv9, expvarSignalDiv9, 0,assessvarSignalDiv9,assessannotvarSignalDiv9); 
-                                                    tip_cndp('SignalDiv10', 'HMI_SetSpeed', diffvarSignalDiv10, [0,0,0.07,0.07,0],[-0,0,0,-0,-0],0,0);">
+                        <input type='checkbox' onclick="tip_cnap('SignalDiv9', 'Audible_Warning', actvarSignalDiv9, expvarSignalDiv9, 0,assessvarSignalDiv9,assessannotvarSignalDiv9); 
+                                                    tip_cndp('SignalDiv10', 'Audible_Warning', diffvarSignalDiv10, [0,0,0.06,0.06,0],[-0,0,0,-0,-0],0,0);">
 
                           <span class='slider round'></span>
                         </label>
 
-                        <div  style='margin: auto;' class="Tab3HMISetSpeed">
-                            <button class='tc-ic' onclick='loadJSFile("Tab3HMISetSpeed" , "ACC_Off_to_ACC_Fault_2/HMI_SetSpeed")'>Load [ <span style='color: #4fe03c;'>HMI_SetSpeed</span> ] Graph Data</button>
+                        <div  style='margin: auto;' class="Tab3AudibleWarning">
+                            <button class='tc-ic' onclick='loadJSFile("Tab3AudibleWarning" , "ACC_Off_to_ACC_Fault_2/Audible_Warning")'>Load [ <span style='color: #4fe03c;'>Audible_Warning</span> ] Graph Data</button>
                         </div>
 
                         <div style='margin-left: auto;'>
@@ -270,10 +268,10 @@
                     </div>
 
                     <div class='container body-content signalTabContent signalTabDefault' id='SignalDiv9' ></div><div class='container body-content signalTabContent' id='SignalDiv10' style='display: none;'> </div>
-                <div class='container body-content SignalJustification' id='ACCHMMILACCHMOffHMtoHMACCHMFaultHM2HMIHMSetSpeed'><span  class='justifTxt'> Justification <span></div>
+                <div class='container body-content SignalJustification' id='ACCAuMILACCAuOffAutoAuACCAuFaultAu2AudibleAuWarning'><span  class='justifTxt'> Justification <span></div>
             </div>
             
-            <span id='Audible_WarningSigSummary'></span>
+            <span id='Internal_Control_ModeSigSummary'></span>
             <div id='Tab4'  class='TabContainer Signal Output Pass' style='display: none;'>
                     <div class='tab'>
                         <div class='tab'>
@@ -282,17 +280,17 @@
                           <button  class='tls12' onmouseover="ntst2(event, 'SignalDiv13', 'SignalDiv12', 'tls12')">Difference</button>                        
                         </div>
 
-                        <label id='ipAudible_Warning' class='switch tcs' style='margin: auto; display: none;'>
+                        <label id='ipInternal_Control_Mode' class='switch tcs' style='margin: auto; display: none;'>
                         
                         
-                        <input type='checkbox' onclick="tip_cnap('SignalDiv12', 'Audible_Warning', actvarSignalDiv12, expvarSignalDiv12, 0,assessvarSignalDiv12,assessannotvarSignalDiv12); 
-                                                    tip_cndp('SignalDiv13', 'Audible_Warning', diffvarSignalDiv13, [0,0,0.07,0.07,0],[-0,0,0,-0,-0],0,0);">
+                        <input type='checkbox' onclick="tip_cnap('SignalDiv12', 'Internal_Control_Mode', actvarSignalDiv12, expvarSignalDiv12, 0,assessvarSignalDiv12,assessannotvarSignalDiv12); 
+                                                    tip_cndp('SignalDiv13', 'Internal_Control_Mode', diffvarSignalDiv13, [0,0,0.06,0.06,0],[-0,0,0,-0,-0],0,0);">
 
                           <span class='slider round'></span>
                         </label>
 
-                        <div  style='margin: auto;' class="Tab4AudibleWarning">
-                            <button class='tc-ic' onclick='loadJSFile("Tab4AudibleWarning" , "ACC_Off_to_ACC_Fault_2/Audible_Warning")'>Load [ <span style='color: #4fe03c;'>Audible_Warning</span> ] Graph Data</button>
+                        <div  style='margin: auto;' class="Tab4InternalControlMode">
+                            <button class='tc-ic' onclick='loadJSFile("Tab4InternalControlMode" , "ACC_Off_to_ACC_Fault_2/Internal_Control_Mode")'>Load [ <span style='color: #4fe03c;'>Internal_Control_Mode</span> ] Graph Data</button>
                         </div>
 
                         <div style='margin-left: auto;'>
@@ -301,37 +299,6 @@
                     </div>
 
                     <div class='container body-content signalTabContent signalTabDefault' id='SignalDiv12' ></div><div class='container body-content signalTabContent' id='SignalDiv13' style='display: none;'> </div>
-                <div class='container body-content SignalJustification' id='ACCAuMILACCAuOffAutoAuACCAuFaultAu2AudibleAuWarning'><span  class='justifTxt'> Justification <span></div>
-            </div>
-            
-            <span id='Internal_Control_ModeSigSummary'></span>
-            <div id='Tab5'  class='TabContainer Signal Output Pass' style='display: none;'>
-                    <div class='tab'>
-                        <div class='tab'>
-                          <button  class='tls15 active' onmouseover="ntst2(event, 'SignalDiv15', 'SignalDiv16','tls15')">Output</button>
-
-                          <button  class='tls15' onmouseover="ntst2(event, 'SignalDiv16', 'SignalDiv15', 'tls15')">Difference</button>                        
-                        </div>
-
-                        <label id='ipInternal_Control_Mode' class='switch tcs' style='margin: auto; display: none;'>
-                        
-                        
-                        <input type='checkbox' onclick="tip_cnap('SignalDiv15', 'Internal_Control_Mode', actvarSignalDiv15, expvarSignalDiv15, 0,assessvarSignalDiv15,assessannotvarSignalDiv15); 
-                                                    tip_cndp('SignalDiv16', 'Internal_Control_Mode', diffvarSignalDiv16, [0,0,0.07,0.07,0],[-0,0,0,-0,-0],0,0);">
-
-                          <span class='slider round'></span>
-                        </label>
-
-                        <div  style='margin: auto;' class="Tab5InternalControlMode">
-                            <button class='tc-ic' onclick='loadJSFile("Tab5InternalControlMode" , "ACC_Off_to_ACC_Fault_2/Internal_Control_Mode")'>Load [ <span style='color: #4fe03c;'>Internal_Control_Mode</span> ] Graph Data</button>
-                        </div>
-
-                        <div style='margin-left: auto;'>
-                            <i class='fa fa-check' style='font-size:200%; margin:25px 15px; color:#0f0;'>Passed</i>
-                        </div>
-                    </div>
-
-                    <div class='container body-content signalTabContent signalTabDefault' id='SignalDiv15' ></div><div class='container body-content signalTabContent' id='SignalDiv16' style='display: none;'> </div>
                 <div class='container body-content SignalJustification' id='ACCInMILACCInOffIntoInACCInFaultIn2InternalInControlInMode'><span  class='justifTxt'> Justification <span></div>
             </div>
             <button onclick='topFunction()' id='myBtn' title='Back To Dashboard'><i class='fa fa-angle-double-up'  style='font-size: 40px'></i></button>

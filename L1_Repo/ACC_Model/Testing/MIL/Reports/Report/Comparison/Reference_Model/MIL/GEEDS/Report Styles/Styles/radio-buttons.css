@@ -1,0 +1,316 @@
+/* The radio */
+
+.radiobutns-wrapper{
+	display:flex;
+	flex-direction: row;
+	justify-content: space-around;
+	border: 1px solid #ddd;
+    border-radius: 50px;
+    margin-left: 60px;
+    margin-right:60px;
+	margin-bottom: 20px;
+}
+
+/*-ga- for global assessments*/
+.radiobutns-wrapper.radiobutns-ga-wrapper{
+    border-radius: 10px !important;
+	width: 100%;
+	margin-top: 10px;
+}
+
+/* When the failed signals is checked, add a red background */
+.radio-failed input:checked ~ .checkround {
+    background-color: #fff;
+}
+
+/* When the failed signals is checked, add a red background */
+.radio-failed input:checked ~ .checkround {
+	border-color:#ff8b8b;
+}
+
+/* When the passed signals is checked, add a green background */
+.radio-passed input:checked ~ .checkround {
+	border-color:#4fe03c;
+}
+
+/* When the output signals is checked, add a blue background */
+.radio-output input:checked ~ .checkround {
+	border-color:#75aaff;
+}
+
+/* When the input signals is checked, add a orange background */
+.radio-input input:checked ~ .checkround {
+	border-color:#ffc107;
+}
+
+/* When the custom signals is checked, add a pink background */
+.radio-custom input:checked ~ .checkround {
+	border-color:#e2c7a3;
+}
+
+
+/* When the failed signals is checked, add a red background */
+.radio-g-all input:checked ~ .checkround {
+	border-color:#75aaff;
+}
+
+/* When the failed signals is checked, add a red background */
+.radio-g-passed input:checked ~ .checkround {
+	border-color:#0f0;
+}
+
+/* When the failed signals is checked, add a red background */
+.radio-g-failed input:checked ~ .checkround {
+	border-color:#f00;
+}
+
+/* When the failed signals is checked, add a red background */
+.radio-g-nottri input:checked ~ .checkround {
+	border-color:#ffc107;
+}
+
+/* When the failed signals is checked, add a red background */
+.radio-g-pass-nottri input:checked ~ .checkround {
+	border-color:#ffc107;
+}
+
+.radio {
+	color: #8a8a8a;
+	display: block;
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 20px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none
+}
+
+/* Hide the browser's default radio button */
+.radio input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+/* Create a custom radio button */
+.checkround {
+
+    position: absolute;
+    top: 6px;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background-color: #fff ;
+    /* border-color:#f8204f; */
+    border-style:solid;
+    border-width:2px;
+	border-radius: 50%;
+}
+
+/* comman background */
+.radio-failed input:checked ~ .checkround {
+    background-color: #fff;
+}
+
+/* When the failed signals is checked, add a red background */
+.radio-failed input:checked ~ .checkround {
+	border-color:#ff8b8b;
+}
+
+/* When the passed signals is checked, add a green background */
+.radio-passed input:checked ~ .checkround {
+	border-color:#4fe03c;
+}
+
+/* When the output signals is checked, add a blue background */
+.radio-output input:checked ~ .checkround {
+	border-color:#75aaff;
+}
+
+/* When the input signals is checked, add a orange background */
+.radio-input input:checked ~ .checkround {
+	border-color:#ffc107;
+}
+
+/* When the custom signals is checked, add a pink background */
+.radio-custom input:checked ~ .checkround {
+	border-color:#e2c7a3;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkround:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.radio input:checked ~ .checkround:after {
+    display: block;
+}
+
+/* When the failed signals is checked, add a pink indicator (dot/circle) */
+.radio .checkround:after {
+	left: 2px;
+    top: 2px;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+}
+
+/* When the failed signals is checked, add a pink indicator (dot/circle) */
+.radio-failed .checkround:after {
+    background:#ff8b8b;
+}
+
+/* When the passed signals is checked, add a pink indicator (dot/circle) */
+.radio-passed .checkround:after {
+    background:#4fe03c;
+}
+
+/* When the output signals is checked, add a pink indicator (dot/circle) */
+.radio-output .checkround:after {
+    background:#75aaff;
+}
+
+/* When the input signals is checked, add a pink indicator (dot/circle) */
+.radio-input .checkround:after {
+    background:#ffc107;
+}
+
+/* When the custom signals is checked, add a pink indicator (dot/circle) */
+.radio-custom .checkround:after {
+    background:#e2c7a3;
+}
+
+/* When the global assessments All is checked, add a blue indicator (dot/circle) */
+.radio-g-all .checkround:after {
+    background:#75aaff;
+}
+
+/* When the global assessments Passed is checked, add a blue indicator (dot/circle) */
+.radio-g-passed .checkround:after {
+    background:#0f0;
+}
+
+/* When the global assessments Failed is checked, add a blue indicator (dot/circle) */
+.radio-g-failed .checkround:after {
+    background:#f00;
+}
+
+/* When the global assessments Not-Triggered is checked, add a blue indicator (dot/circle) */
+.radio-g-nottri .checkround:after {
+    background:#ffc107;
+}
+
+/* When the global assessments Passed with Not-Triggered is checked, add a blue indicator (dot/circle) */
+.radio-g-pass-nottri .checkround:after {
+    background:#ffc107;
+}
+.radio + .radio{
+    margin-top: 10px;
+    margin-bottom: 12px;
+	/* margin-left : 70px */
+}
+
+
+
+
+/* ///////////////////////////////////////// */
+/* /////////////   Checkbox   ////////////// */
+/* ///////////////////////////////////////// */
+
+
+ /* This css is for normalizing styles. You can skip this. */
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  /*padding: 0;*/
+}
+
+
+
+
+.new {
+  padding: 20px;
+}
+
+.form-group {
+  display: block;
+  margin-bottom: 15px;
+}
+
+.form-group input {
+  padding: 0;
+  height: initial;
+  width: initial;
+  margin-bottom: 0;
+  display: none;
+  cursor: pointer;
+}
+
+.form-group label {
+  position: relative;
+  cursor: pointer;
+}
+
+
+.chk-out-Signals label:before {
+  content:'';
+  -webkit-appearance: none;
+  background-color: transparent;
+  border: 2px solid #0079bf;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), inset 0px -15px 10px -12px rgba(0, 0, 0, 0.05);
+  padding: 10px;
+  display: inline-block;
+  position: relative;
+  vertical-align: middle;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+.chk-out-Signals input:checked + label:after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 2px;
+  left: 9px;
+  width: 6px;
+  height: 14px;
+  border: solid #0079bf;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+}
+
+.chk-in-Signals label:before {
+  content:'';
+  -webkit-appearance: none;
+  background-color: transparent;
+  border: 2px solid #ec971f;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), inset 0px -15px 10px -12px rgba(0, 0, 0, 0.05);
+  padding: 10px;
+  display: inline-block;
+  position: relative;
+  vertical-align: middle;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+.chk-in-Signals input:checked + label:after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 2px;
+  left: 9px;
+  width: 6px;
+  height: 14px;
+  border: solid #ec971f;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+}
+
